@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0303/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0303/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 參同契五相類祕要
+  date: '2015-08-29 00:55:46.822163'
+  source:
+    repository: kanripo
+    path: KR5c0303
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0303_000-ZTDZ.yaml, hash: 'sha256:3b871a703dcdd639dc6ba316376314100dab397f8b73bc28319c614ed58699b9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0303_000-ZTDZ.markers.yaml, hash: 'sha256:b2b23a705da322553709908cb5960ba05e7d9dd8a359847e0aadad98ac8116ae'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0303_SJB_000-190086b
+    span:
+    - body
+    - 0
+    - 2728
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e03ccafee21637e756a7c6ea9be6db333f304743bd65cd8c80d5ba09b20942ec

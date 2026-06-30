@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0303/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0303/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 參同契五相類祕要
+  date: '2015-08-29 00:55:46.822163'
+  source:
+    repository: kanripo
+    path: KR5c0303
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0303_000-HFL.yaml, hash: 'sha256:91b0741c5a9b09ed8707846e73850896f819d6ff0160179eacaeb312b19c7584'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0303_000-HFL.markers.yaml, hash: 'sha256:fe5312b08d91d50483882d387cdda4529f0db56094ce5661303d5b74b5ccbc54'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0303_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2728
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:21aadb002399cd9e5922cecc5f1a0a06dda31ab9f391c776de8b9fdc1f6db8b8
